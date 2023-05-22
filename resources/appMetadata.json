@@ -1,7 +1,7 @@
 [{
 	"Source_file_path": "C:\\Users\\iramp\\PycharmProjects\\extention_validation\\resources\\data\\Expanded_data_with_more_features.csv",
 	"Source_file_format": "csv",
-	"Select_col_list": ["id","name","Date"],
+	"Select_col_list": ["id","name","Date","LunchType"],
 	"Target_file_path": " ",
 	"Target_file_format": " ",
 	"Target_file_mode": " ",
