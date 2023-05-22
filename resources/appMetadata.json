@@ -1,0 +1,19 @@
+[{
+	"Source_file_path": "C:\\Users\\iramp\\PycharmProjects\\extention_validation\\resources\\data\\Expanded_data_with_more_features.csv",
+	"Source_file_format": "csv",
+	"Select_col_list": ["id","name","Date"],
+	"Target_file_path": " ",
+	"Target_file_format": " ",
+	"Target_file_mode": " ",
+	"Validated_col_list": {
+		"null_checks": [],
+		"ri_checks": [],
+		"lov_checks": [],
+		"fd_check": []
+	},
+	"ri_check_format": " ",
+	"ri_check_path": " ",
+	"lov_check_path": " ",
+	"lov_file_format": " "
+}
+]
