@@ -37,11 +37,6 @@ for row in metadataDf.collect():
                 nullcheckDf.show(truncate=False)
 
 
-    #null
-    #nullcheckDf = nullvalidation(df,nullcheckcols)
-
-
-
 
 
 
