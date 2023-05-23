@@ -1,12 +1,12 @@
 [{
-	"Source_file_path": "C:\\Users\\iramp\\PycharmProjects\\extention_validation\\resources\\data\\Expanded_data_with_more_features.csv",
+	"Source_file_path": "C:\\Users\\Srihari\\Documents\\venusirsw\\PycharmProjects\\pythonProject\\MetaProject\\resources\\Expanded_data_with_more_features.csv",
 	"Source_file_format": "csv",
-	"Select_col_list": ["id","name","Date"],
+	"Select_col_list": ["_c0","Gender","ParentEduc","EthnicGroup","LunchType"],
 	"Target_file_path": " ",
 	"Target_file_format": " ",
 	"Target_file_mode": " ",
 	"Validated_col_list": {
-		"null_checks": [],
+		"null_checks": ["LunchType","EthnicGroup"],
 		"ri_checks": [],
 		"lov_checks": [],
 		"fd_check": []
