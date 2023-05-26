@@ -1,18 +1,22 @@
 [{
-	"Source_file_path": "C:\\Users\\Srihari\\Documents\\venusirsw\\PycharmProjects\\pythonProject\\MetaProject\\resources\\Expanded_data_with_more_features.csv",
+	"Source_file_path": "C:\\Users\\Srihari\\Documents\\venusirsw\\PycharmProjects\\pythonProject\\mddp\\resources\\Expanded_data_with_more_features.csv",
 	"Source_file_format": "csv",
-	"Select_col_list": ["_c0","Gender","ParentEduc","EthnicGroup","LunchType"],
+	"Entityname":"parententity",
+	"Select_col_list": ["sno","Gender","ParentEduc","EthnicGroup","LunchType"],
+	"src_pk": "sno",
 	"Target_file_path": " ",
 	"Target_file_format": " ",
 	"Target_file_mode": " ",
 	"Validated_col_list": {
-		"null_checks": ["LunchType","EthnicGroup"],
+		"null_checks": ["EthnicGroup","LunchType"],
 		"ri_checks": [],
 		"lov_checks": [],
 		"fd_check": []
 	},
-	"ri_check_format": " ",
-	"ri_check_path": " ",
+	"ri_check_format": "csv",
+	"ri_check_path": "C:\\Users\\Srihari\\Documents\\venusirsw\\PycharmProjects\\pythonProject\\mddp\\resources\\Original_data_with_more_rows.csv",
+	"ri_select_col_list": ["risno","MathScore","ReadingScore","WritingScore"],
+	"src_ri_fk": "risno",
 	"lov_check_path": " ",
 	"lov_file_format": " "
 }

@@ -62,7 +62,16 @@ def getMetadataRead(row):
     dis["Source_file_path"] = row.Source_file_path
     dis["Source_file_format"] = row.Source_file_format
     dis["Select_col_list"] = row.Select_col_list
+    dis["Entityname"] = row.Entityname
     dis["null_checks"] = row.Validated_col_list.null_checks
+
+    dis["ri_check_path"]= row.ri_check_path
+    dis["ri_check_format"]= row.ri_check_format
+    dis["ri_select_col_list"]=row.ri_select_col_list
+
+    dis["src_pk"]=row.src_pk
+    dis["src_ri_fk"]=row.src_ri_fk
+
 
     return dis
 
@@ -91,3 +100,10 @@ def nullcheckvalidation(df, columnslist, msgcol):
                                     .otherwise(col(msgcol)))
         #df.show(truncate=False)
     return df
+
+def joinentities(leftdf , leftdfcol,rightdf,rightdfcol,jointype):
+  print("in joindf function","leftdf:",leftdf," ,leftdfcol:",leftdfcol)
+
+  joindf = leftdf.join(rightdf,leftdf[leftdfcol] == rightdf[rightdfcol],jointype)
+  return joindf
+
